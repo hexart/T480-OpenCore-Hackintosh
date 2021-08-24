@@ -89,7 +89,8 @@
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenCanopy.efi  | OpenCorePkg 0.7.2 |
 | OpenRuntime.efi | OpenCorePkg 0.7.2 |
-|   </details>    |                   |
+|       |                   |
+</details>
 
 ## Before installation
 
@@ -258,9 +259,7 @@ etc.
 
 </details>  
 
-## 
-
-#### Credits
+##  Credits
 
 https://github.com/EETagent/T480-OpenCore-Hackintosh
 
