@@ -1,6 +1,6 @@
 # T480-OpenCore-Hackintosh
 
-
+<img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
@@ -158,14 +158,12 @@ etc.
 4. Boot flash drive via F12 boot menu
 5. Choose **Edit keys**
 
-
-<img src="/Users/hexart/Downloads/Other/README_Resources/SecureBoot/MainMenu.png" alt="Main menu">
+<img src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/SecureBoot/MainMenu.png" alt="Main menu">
 
 6. Start by **replacing** Signature Database. Select .auth file
 
-
-<img src="/Users/hexart/Downloads/Other/README_Resources/SecureBoot/ManipulateKey.png" alt="Select key to manipulate with">
-<img src="/Users/hexart/Downloads/Other/README_Resources/SecureBoot/SelectAuth.png" alt="Select .auth file">
+<img src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/SecureBoot/ManipulateKey.png" alt="Select key to manipulate with">
+<img src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/SecureBoot/SelectAuth.png" alt="Select .auth file">
 
 
 7. Do the same for Key Exchange Keys Database (KEK) and Platform Key (PK) **in this order**
