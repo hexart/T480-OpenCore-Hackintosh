@@ -137,7 +137,7 @@ Format is lang-COUNTRY:keyboard
 
 - 🇺🇸 | [0] en_US - U.S --> en-US:0 --> 656e2d55 533a30
 
--  | [0] CN - China Mainland --> zh-Hans:252 --> 7A682D48 616E733A 323532
+-  🇺🇸 | [252] en - ABC --> zh-Hans:252 --> 7A682D48 616E733A 323532
 
 
 etc.
