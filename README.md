@@ -2,7 +2,7 @@
 
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Stable](https://img.shields.io/badge/macOS-11.5.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-12.0-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
@@ -18,28 +18,27 @@
 
 | Category  | Component                         | Note                                                         |
 | --------- | --------------------------------- | ------------------------------------------------------------ |
-| CPU       | Intel Core i5-8250U               | 20L50000MC                                                   |
+| CPU       | Intel Core i7-8550U               | 20L50000MC                                                   |
 | GPU       | Intel UHD 620                     |                                                              |
-| SSD       | Samsung 970 Evo 512GB             | Replaced cursed PM 981 which stil doesn't work reliably      |
-| Memory    | 12GB DDR4 2400Mhz                 |                                                              |
+| SSD       | Western Digital 970 SN750 500GB   | Replaced cursed PM 981 which stil doesn't work reliably      |
+| Memory    | 8+16GB DDR4 2400Mhz               |                                                              |
 | Battery   | Dual battery                      |                                                              |
 | Camera    | 720p Camera                       |                                                              |
-| Wifi & BT | Intel Wireless-AC 8265            | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app. |
+| Wifi & BT | BCM1820A                          |                                                              |
 | Input     | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
 
 </details>  
 
 <details>
 
-
 <summary><strong>Main software</strong></summary>
 <br>
 
 | Component      | Version              |
 | -------------- | -------------------- |
-| macOS Monterey | 12.0 Beta (21A5304g) |
+| macOS Monterey | 12.0 Beta (21A5506j) |
 | macOS Big Sur  | 11.5.2 (20G95)       |
-| OpenCore       | v0.7.2               |
+| OpenCore       | v0.7.3               |
 
 </details>
 
@@ -52,11 +51,10 @@
 | :-------------------- | -------------- |
 | AirportBrcmFixup      | 2.1.4          |
 | AppleALC              | 1.6.4          |
-| BrightnessKeys        | 1.0.1          |
-| CPUFriend             | 1.2.5          |
+| BrightnessKeys        | 1.0.2          |
+| CPUFriend             | 1.2.4          |
 | CPUFriendDataProvider | i7-8550U       |
 | HibernationFixup      | 1.4.3          |
-| HoRNDIS               | Disabled, 9.2  |
 | BlueToolFixup         | 2.6.0          |
 | BrcmBluetoothInjector | 2.6.0          |
 | BrcmFirmwareData      | 2.6.0          |
@@ -78,23 +76,21 @@
 
 <details>
 
-
 <summary><strong>UEFI drivers</strong></summary>
 <br>
 
 |     Driver      | Version           |
 | :-------------: | ----------------- |
-|  AudioDxe.efi   | OpenCorePkg 0.7.2 |
+|  AudioDxe.efi   | OpenCorePkg 0.7.3 |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.7.2 |
-| OpenRuntime.efi | OpenCorePkg 0.7.2 |
-|       |                   |
+| OpenCanopy.efi  | OpenCorePkg 0.7.3 |
+| OpenRuntime.efi | OpenCorePkg 0.7.3 |
+
 </details>
 
 ## Before installation
 
 <details>  
-
 
 <summary><strong>UEFI settings</strong></summary>
 <br>
@@ -126,7 +122,6 @@
 
 <details>
 
-
 <summary><strong>Own prev-lang-kbd</strong></summary>
 <br>
 
@@ -138,7 +133,6 @@ Format is lang-COUNTRY:keyboard
 
 -  🇺🇸 | [252] en - ABC --> zh-Hans:252 --> 7A682D48 616E733A 323532
 
-
 etc.
 
 [AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
@@ -146,7 +140,6 @@ etc.
 </details>
 
 <details>
-
 
 <summary><strong>Secure Boot (Optional)</strong></summary>
 <br>
@@ -186,53 +179,32 @@ etc.
 <summary><strong>What's working ✅</strong></summary>
 
 - [x] Battery percentage
-
 - [x] Bluetooth - Broadcom BCM1820A
-
 - [x] Boot chime
-
 - [x] Boot menu `OpenCanopy` 
-
 - [x] CPU power management / performance `Now on par with Windows without XTU undervolt.`
-
 - [x] FireVault 2 `No config.plist changes needed` 
-
 - [x] GPU UHD 620 hardware acceleration / performance 
-
 - [x] HDMI `Closed and opened lid. With audio.`
-
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
-
 - [x] Intel I219V Ethernet port
-
 - [x] Keyboard `Volume and brightness hotkeys. Another media keys with YogaSMC.`
-
 - [x] Microphone `With keyboard switch using ThinkPad Assistant.`
-
 - [x] Realtek® ALC3287 ("ALC257") Audio
-
 - [x] SD card reader `Fortunately, USB connected.`
-
 - [x] Sidecar wired `Works with 15,2 SMBIOS.`
-
 - [x] Sleep/Wake 
-
 - [x] TouchPad `1-5 fingers swipe works. Emulate force touch using longer and more voluminous touch.`
-
 - [x] TrackPoint  `Works perfectly. Just like on Windows or Linux.`
-
 - [x] USB Ports `USB Map is different for devices with Windows Hello camera.`
-
 - [x] Web camera
-
 - [x] Wifi - Broadcom BCM1820A
-
 - [x] DRM `Widevine, validated on Firefox 82. WhateverGreen's DRM is broken on Big Sur`
+- [x] Windows/Linux from OC boot menu
 
 </details>  
 
 <details>  
-
 
 <summary><strong>What's not working ⚠️</strong></summary>
 
@@ -242,21 +214,21 @@ etc.
 
 - [ ] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
 
-- [ ] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
 
 
 </details>  
 
 <details>  
 
+<summary><strong>Need help</strong></summary>
 
-<summary><strong>Untested</strong></summary>
-
-- [ ] Thunderbolt  `No device to test.`
+- [ ] Thunderbolt to DP  `Can't recognize 4k display, but normal under windows booting via OC.`
 
 </details>  
 
 ##  Credits
+
+https://gitee.com/dhbxs/think-pad-t480-open-core0.6.7-hackintosh/tree/main
 
 https://github.com/EETagent/T480-OpenCore-Hackintosh
 
