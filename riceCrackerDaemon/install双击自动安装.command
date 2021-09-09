@@ -3,10 +3,10 @@
 path=${0%/*}
 
 sudo cp "$path/org.zysuper.ricecracker.daemon.plist" /Library/LaunchAgents
-sudo cp "$path/riceCrackerDaemon" /Library/Application Support
+sudo cp "$path/riceCrackerDaemon" "/Library/Application Support/riceCracker"
 
-sudo chmod 755 "/Library/Application Support/riceCrackerDaemon/riceCrackerDaemon"
-sudo chown root:wheel "/Library/Application Support/riceCrackerDaemon/riceCrackerDaemon"
+sudo chmod 755 "/Library/Application Support/riceCracker/riceCrackerDaemon"
+sudo chown root:wheel "/Library/Application Support/riceCracker/riceCrackerDaemon"
 
 sudo chmod 644 /Library/LaunchAgents/org.zysuper.ricecracker.daemon.plist
 sudo chown root:wheel /Library/LaunchAgents/org.zysuper.ricecracker.daemon.plist

@@ -9,10 +9,10 @@
 	<key>KeepAlive</key>
 	<false/>
 	<key>Program</key>
-	<string>/Library/Application Support/riceCrackerDaemon/riceCrackerDaemon</string>
+	<string>/Library/Application Support/riceCracker/riceCrackerDaemon</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Library/Application Support/riceCrackerDaemon/riceCrackerDaemon</string>
+		<string>/Library/Application Support/riceCracker/riceCrackerDaemon</string>
 	</array>
 </dict>
 </plist>
