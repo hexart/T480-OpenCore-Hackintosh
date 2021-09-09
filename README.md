@@ -129,9 +129,8 @@ Either add as a string or as a data ( HEX data [(ProperTree)](https://github.com
 
 Format is lang-COUNTRY:keyboard
 
+- 🇨🇳 | [252] en - ABC --> zh-Hans:252 --> 7A682D48 616E733A 323532
 - 🇺🇸 | [0] en_US - U.S --> en-US:0 --> 656e2d55 533a30
-
--  🇺🇸 | [252] en - ABC --> zh-Hans:252 --> 7A682D48 616E733A 323532
 
 etc.
 
