@@ -3,7 +3,7 @@
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Stable](https://img.shields.io/badge/macOS-11.5.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
+[![macOS-Stable](https://img.shields.io/badge/macOS-11.6-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-12.0-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
 ## Introduction
@@ -37,7 +37,7 @@
 | Component      | Version              |
 | -------------- | -------------------- |
 | macOS Monterey | 12.0 Beta (21A5506j) |
-| macOS Big Sur  | 11.5.2 (20G95)       |
+| macOS Big Sur  | 11.6 (20G165)        |
 | OpenCore       | v0.7.3               |
 
 </details>
@@ -67,7 +67,7 @@
 | VirtualSMC            | 1.2.7          |
 | VoltageShift          | Disabled, 1.22 |
 | VoodooPS2Controller   | 2.2.5          |
-| VoodooRMI             | 1.3.3          |
+| VoodooRMI             | 1.3.4          |
 | VoodooSMBus           | 3.0.0          |
 | WhateverGreen         | 1.5.3          |
 | YogaSMC               | 1.5.1          |
