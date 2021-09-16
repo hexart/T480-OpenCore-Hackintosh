@@ -199,7 +199,7 @@ etc.
 - [x] Web camera
 - [x] Wifi - Broadcom BCM1820A
 - [x] DRM `Widevine, validated on Firefox 82. WhateverGreen's DRM is broken on Big Sur`
-- [x] Windows boot from OC boot menu
+- [x] Windows 11 boot from OC boot menu
 
 </details>  
 
