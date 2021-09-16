@@ -221,7 +221,7 @@ etc.
 
 <summary><strong>Need help</strong></summary>
 
-- [ ] Thunderbolt to DP  `Can't recognize 4k display, but normal under windows booting via OC.`
+- [ ] Thunderbolt to DP  `Can't recognize 4k display, but is normal under windows booting via OC.`
 
 </details>  
 
