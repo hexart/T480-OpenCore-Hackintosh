@@ -2,9 +2,9 @@
 
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.4-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Stable](https://img.shields.io/badge/macOS-11.6-brightgreen.svg)](https://www.apple.com/macos/big-sur)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-12.0-brightgreen.svg)](https://www.apple.com/macos/big-sur)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-12.0-purple.svg)](https://www.apple.com/macos/big-sur)
 
 ## Introduction
 
@@ -36,9 +36,9 @@
 
 | Component      | Version              |
 | -------------- | -------------------- |
-| macOS Monterey | 12.0 Beta (21A5506j) |
+| macOS Monterey | 12.0 Beta (21A5522h) |
 | macOS Big Sur  | 11.6 (20G165)        |
-| OpenCore       | v0.7.3               |
+| OpenCore       | v0.7.4               |
 
 </details>
 
@@ -54,7 +54,7 @@
 | BrightnessKeys        | 1.0.2          |
 | CPUFriend             | 1.2.4          |
 | CPUFriendDataProvider | i7-8550U       |
-| HibernationFixup      | 1.4.3          |
+| HibernationFixup      | 1.4.4          |
 | BlueToolFixup         | 2.6.0          |
 | BrcmBluetoothInjector | 2.6.0          |
 | BrcmFirmwareData      | 2.6.0          |
@@ -81,10 +81,10 @@
 
 |     Driver      | Version           |
 | :-------------: | ----------------- |
-|  AudioDxe.efi   | OpenCorePkg 0.7.3 |
+|  AudioDxe.efi   | OpenCorePkg 0.7.4 |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.7.3 |
-| OpenRuntime.efi | OpenCorePkg 0.7.3 |
+| OpenCanopy.efi  | OpenCorePkg 0.7.4 |
+| OpenRuntime.efi | OpenCorePkg 0.7.4 |
 
 </details>
 
@@ -209,7 +209,7 @@ etc.
 
 - [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
 
-- [ ] PM 981 `Still unstable. Could work for some, not for others.`
+- [ ] PM 981 `Still unstable.`
 
 - [ ] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
 
@@ -222,6 +222,7 @@ etc.
 <summary><strong>Need help</strong></summary>
 
 - [ ] Thunderbolt to DP  `Can't recognize 4k display, but is normal under windows booting via OC.`
+- [ ] Touchpad and Trackpoint will not work in windows 11 after wakeup from sleep.
 
 </details>  
 
