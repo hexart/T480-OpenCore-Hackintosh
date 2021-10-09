@@ -5,7 +5,7 @@
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.4-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Stable](https://img.shields.io/badge/macOS-11.6-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-12.0-purple.svg)](https://www.apple.com/macos/monterey-preview)
-[![macOS-Unstable](https://img.shields.io/badge/Windows-11-blue.svg)](https://www.microsoft.com/en-us/windows/windows-11)
+[![Windows-Stable](https://img.shields.io/badge/Windows-11-blue.svg)](https://www.microsoft.com/en-us/windows)
 
 ## Introduction
 
@@ -35,11 +35,11 @@
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version              |
-| -------------- | -------------------- |
-| macOS Monterey | 12.0 Beta (21A5534d) |
-| macOS Big Sur  | 11.6 (20G165)        |
-| OpenCore       | v0.7.4               |
+| Component      | Version                |
+| -------------- | ---------------------- |
+| macOS Monterey | 12.0 Beta 9 (21A5543b) |
+| macOS Big Sur  | 11.6 (20G165)          |
+| OpenCore       | v0.7.4                 |
 
 </details>
 
@@ -51,7 +51,7 @@
 | Kext                  | Version        |
 | :-------------------- | -------------- |
 | AirportBrcmFixup      | 2.1.4          |
-| AppleALC              | 1.6.4          |
+| AppleALC              | 1.6.5          |
 | BrightnessKeys        | 1.0.2          |
 | CPUFriend             | 1.2.4          |
 | CPUFriendDataProvider | i7-8550U       |
@@ -67,10 +67,10 @@
 | RTCMemoryFixup        | 1.0.8          |
 | VirtualSMC            | 1.2.7          |
 | VoltageShift          | Disabled, 1.22 |
-| VoodooPS2Controller   | 2.2.5          |
+| VoodooPS2Controller   | 2.2.6          |
 | VoodooRMI             | 1.3.4          |
 | VoodooSMBus           | 3.0.0          |
-| WhateverGreen         | 1.5.3          |
+| WhateverGreen         | 1.5.4          |
 | YogaSMC               | 1.5.1          |
 
 </details>
