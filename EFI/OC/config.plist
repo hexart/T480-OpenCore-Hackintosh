@@ -1810,6 +1810,126 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Prevent Apple SMBus kexts from attaching to SMBUS controller</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleSMBusController</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Prevent Apple SMBus kexts from attaching to SMBUS controller</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleSMBusPCI</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -2043,7 +2163,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 alcid=11 rtcfx_exclude=80-AB hbfx-ahbm=1 -cdfon brcmfx-country=#a brcmfx-aspm bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 				<key>run-efi-updater</key>
@@ -2065,6 +2185,7 @@
 			<array>
 				<string>boot-args</string>
 				<string>ForceDisplayRotationInEFI</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -2112,10 +2233,10 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MLB</key>
-			<string>C02801403QXJH4RCB</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
+			<key>MLB</key>
+			<string>C02801403QXJH4RCB</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -2181,7 +2302,7 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
+			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>

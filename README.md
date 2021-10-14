@@ -37,7 +37,7 @@
 
 | Component      | Version                |
 | -------------- | ---------------------- |
-| macOS Monterey | 12.0 Beta 9 (21A5543b) |
+| macOS Monterey | 12.0 Beta 9 (21A5552a) |
 | macOS Big Sur  | 11.6 (20G165)          |
 | OpenCore       | v0.7.4                 |
 
