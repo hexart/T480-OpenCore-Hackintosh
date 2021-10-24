@@ -35,11 +35,11 @@
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version                |
-| -------------- | ---------------------- |
-| macOS Monterey | 12.0 Beta 9 (21A5552a) |
-| macOS Big Sur  | 11.6 (20G165)          |
-| OpenCore       | v0.7.4                 |
+| Component      | Version         |
+| -------------- | --------------- |
+| macOS Monterey | 12.0.1 (21A559) |
+| macOS Big Sur  | 11.6 (20G165)   |
+| OpenCore       | v0.7.4          |
 
 </details>
 
