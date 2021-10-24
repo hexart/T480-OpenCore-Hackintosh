@@ -67,7 +67,7 @@
 | RTCMemoryFixup        | 1.0.8          |
 | VirtualSMC            | 1.2.7          |
 | VoltageShift          | Disabled, 1.22 |
-| VoodooPS2Controller   | 2.2.6          |
+| VoodooPS2Controller   | 2.2.7          |
 | VoodooRMI             | 1.3.4          |
 | VoodooSMBus           | 3.0.0          |
 | WhateverGreen         | 1.5.4          |
