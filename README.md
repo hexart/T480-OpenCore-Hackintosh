@@ -3,8 +3,7 @@
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.4-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Stable](https://img.shields.io/badge/macOS-11.6-brightgreen.svg)](https://www.apple.com/macos/big-sur)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-12.0-purple.svg)](https://www.apple.com/macos/monterey-preview)
+[![macOS-Stable](https://img.shields.io/badge/macOS-12.0-purple.svg)](https://www.apple.com/macos/monterey/)
 [![Windows-Stable](https://img.shields.io/badge/Windows-11-blue.svg)](https://www.microsoft.com/en-us/windows)
 
 ## Introduction
