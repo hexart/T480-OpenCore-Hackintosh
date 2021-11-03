@@ -4,3 +4,5 @@ EFI/OC/.contentFlavour
 EFI/OC/.DS_Store
 EFI/OC/Tools/.DS_Store
 .DS_Store
+EFI/BOOT/.contentFlavour
+EFI/OC/config-old.plist

@@ -39,7 +39,7 @@
 | -------------- | --------------- |
 | macOS Monterey | 12.0.1 (21A559) |
 | macOS Big Sur  | 11.6 (20G165)   |
-| OpenCore       | v0.7.4          |
+| OpenCore       | v0.7.5          |
 
 </details>
 
@@ -51,17 +51,17 @@
 | Kext                  | Version        |
 | :-------------------- | -------------- |
 | AirportBrcmFixup      | 2.1.4          |
-| AppleALC              | 1.6.5          |
+| AppleALC              | 1.6.6          |
 | BrightnessKeys        | 1.0.2          |
 | CPUFriend             | 1.2.4          |
 | CPUFriendDataProvider | i7-8550U       |
-| HibernationFixup      | 1.4.4          |
-| BlueToolFixup         | 2.6.0          |
-| BrcmBluetoothInjector | 2.6.0          |
-| BrcmFirmwareData      | 2.6.0          |
-| BrcmPatchRAM3         | 2.6.0          |
+| HibernationFixup      | 1.4.5          |
+| BlueToolFixup         | 2.6.1          |
+| BrcmBluetoothInjector | 2.6.1          |
+| BrcmFirmwareData      | 2.6.1          |
+| BrcmPatchRAM3         | 2.6.1          |
 | IntelMausi            | 1.0.8          |
-| Lilu                  | 1.5.6          |
+| Lilu                  | 1.5.7          |
 | NoTouchID             | 1.0.4          |
 | NVMeFix               | 1.1.0          |
 | RTCMemoryFixup        | 1.0.8          |
@@ -70,7 +70,7 @@
 | VoodooPS2Controller   | 2.2.7          |
 | VoodooRMI             | 1.3.4          |
 | VoodooSMBus           | 3.0.0          |
-| WhateverGreen         | 1.5.4          |
+| WhateverGreen         | 1.5.5          |
 | YogaSMC               | 1.5.1          |
 
 </details>
@@ -82,10 +82,10 @@
 
 |     Driver      | Version           |
 | :-------------: | ----------------- |
-|  AudioDxe.efi   | OpenCorePkg 0.7.4 |
+|  AudioDxe.efi   | OpenCorePkg 0.7.5 |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.7.4 |
-| OpenRuntime.efi | OpenCorePkg 0.7.4 |
+| OpenCanopy.efi  | OpenCorePkg 0.7.5 |
+| OpenRuntime.efi | OpenCorePkg 0.7.5 |
 
 </details>
 
