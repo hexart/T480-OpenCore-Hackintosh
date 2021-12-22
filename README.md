@@ -2,14 +2,13 @@
 
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.4-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Stable](https://img.shields.io/badge/macOS-12.0-purple.svg)](https://www.apple.com/macos/monterey/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.7-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS-Stable](https://img.shields.io/badge/macOS-12.1-purple.svg)](https://www.apple.com/macos/monterey/)
 [![Windows-Stable](https://img.shields.io/badge/Windows-11-blue.svg)](https://www.microsoft.com/en-us/windows)
 
 ## Introduction
 
 <details>
-
 <summary><strong>Hardware</strong></summary>
 <br>
 
@@ -34,11 +33,11 @@
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version         |
-| -------------- | --------------- |
-| macOS Monterey | 12.0.1 (21A559) |
-| macOS Big Sur  | 11.6 (20G165)   |
-| OpenCore       | v0.7.5          |
+| Component      | Version       |
+| -------------- | ------------- |
+| macOS Monterey | 12.1 (21C52)  |
+| macOS Big Sur  | 11.6 (20G165) |
+| OpenCore       | v0.7.7        |
 
 </details>
 
@@ -50,7 +49,7 @@
 | Kext                  | Version        |
 | :-------------------- | -------------- |
 | AirportBrcmFixup      | 2.1.4          |
-| AppleALC              | 1.6.6          |
+| AppleALC              | 1.6.7          |
 | BrightnessKeys        | 1.0.2          |
 | CPUFriend             | 1.2.4          |
 | CPUFriendDataProvider | i7-8550U       |
@@ -60,11 +59,11 @@
 | BrcmFirmwareData      | 2.6.1          |
 | BrcmPatchRAM3         | 2.6.1          |
 | IntelMausi            | 1.0.8          |
-| Lilu                  | 1.5.7          |
+| Lilu                  | 1.5.8          |
 | NoTouchID             | 1.0.4          |
 | NVMeFix               | 1.1.0          |
 | RTCMemoryFixup        | 1.0.8          |
-| VirtualSMC            | 1.2.7          |
+| VirtualSMC            | 1.2.8          |
 | VoltageShift          | Disabled, 1.22 |
 | VoodooPS2Controller   | 2.2.7          |
 | VoodooRMI             | 1.3.4          |
@@ -81,10 +80,10 @@
 
 |     Driver      | Version           |
 | :-------------: | ----------------- |
-|  AudioDxe.efi   | OpenCorePkg 0.7.5 |
+|  AudioDxe.efi   | OpenCorePkg 0.7.7 |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.7.5 |
-| OpenRuntime.efi | OpenCorePkg 0.7.5 |
+| OpenCanopy.efi  | OpenCorePkg 0.7.7 |
+| OpenRuntime.efi | OpenCorePkg 0.7.7 |
 
 </details>
 
