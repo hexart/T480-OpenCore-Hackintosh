@@ -49,7 +49,7 @@
 | Kext                  | Version        |
 | :-------------------- | -------------- |
 | AirportBrcmFixup      | 2.1.4          |
-| AppleALC              | 1.6.7          |
+| AppleALC              | 1.6.8          |
 | BrightnessKeys        | 1.0.2          |
 | CPUFriend             | 1.2.4          |
 | CPUFriendDataProvider | i7-8550U       |
@@ -59,7 +59,7 @@
 | BrcmFirmwareData      | 2.6.1          |
 | BrcmPatchRAM3         | 2.6.1          |
 | IntelMausi            | 1.0.8          |
-| Lilu                  | 1.5.8          |
+| Lilu                  | 1.5.9          |
 | NoTouchID             | 1.0.4          |
 | NVMeFix               | 1.1.0          |
 | RTCMemoryFixup        | 1.0.8          |
@@ -68,7 +68,7 @@
 | VoodooPS2Controller   | 2.2.7          |
 | VoodooRMI             | 1.3.4          |
 | VoodooSMBus           | 3.0.0          |
-| WhateverGreen         | 1.5.5          |
+| WhateverGreen         | 1.5.6          |
 | YogaSMC               | 1.5.1          |
 
 </details>

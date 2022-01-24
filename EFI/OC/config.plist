@@ -2013,7 +2013,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Acidanthera\GoldenGate</string>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -2291,6 +2291,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerPollMask</key>
+			<integer>-1</integer>
+			<key>PointerPollMax</key>
+			<integer>80</integer>
+			<key>PointerPollMin</key>
+			<integer>10</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -2412,7 +2418,7 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UIScale</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>UgaPassThrough</key>
 			<false/>
 		</dict>
