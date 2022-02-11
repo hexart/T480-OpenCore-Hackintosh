@@ -3,7 +3,7 @@
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.8-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Stable](https://img.shields.io/badge/macOS-12.2-purple.svg)](https://www.apple.com/macos/monterey/)
+[![macOS-Stable](https://img.shields.io/badge/macOS-12.2.1-purple.svg)](https://www.apple.com/macos/monterey/)
 [![Windows-Stable](https://img.shields.io/badge/Windows-11-blue.svg)](https://www.microsoft.com/en-us/windows)
 
 ## Introduction
@@ -33,11 +33,11 @@
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version       |
-| -------------- | ------------- |
-| macOS Monterey | 12.2 (21D49)  |
-| macOS Big Sur  | 11.6 (20G165) |
-| OpenCore       | v0.7.8        |
+| Component      | Version        |
+| -------------- | -------------- |
+| macOS Monterey | 12.2.1 (21D62) |
+| macOS Big Sur  | 11.6 (20G165)  |
+| OpenCore       | v0.7.8         |
 
 </details>
 
@@ -224,7 +224,7 @@ etc.
 
 ##  Credits
 
-https://gitee.com/dhbxs/think-pad-t480-open-core0.6.7-hackintosh/tree/main
+https://gitee.com/dhbxs/ThinkPad-T480-OpenCore-Hackintosh
 
 https://github.com/EETagent/T480-OpenCore-Hackintosh
 
