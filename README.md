@@ -2,7 +2,7 @@
 
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.8-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Stable](https://img.shields.io/badge/macOS-12.2.1-purple.svg)](https://www.apple.com/macos/monterey/)
 [![Windows-Stable](https://img.shields.io/badge/Windows-11-blue.svg)](https://www.microsoft.com/en-us/windows)
 
@@ -37,7 +37,7 @@
 | -------------- | -------------- |
 | macOS Monterey | 12.2.1 (21D62) |
 | macOS Big Sur  | 11.6 (20G165)  |
-| OpenCore       | v0.7.8         |
+| OpenCore       | v0.7.9         |
 
 </details>
 
@@ -49,7 +49,7 @@
 | Kext                  | Version        |
 | :-------------------- | -------------- |
 | AirportBrcmFixup      | 2.1.4          |
-| AppleALC              | 1.6.9          |
+| AppleALC              | 1.7.0          |
 | BrightnessKeys        | 1.0.2          |
 | CPUFriend             | 1.2.4          |
 | CPUFriendDataProvider | i7-8550U       |
@@ -63,12 +63,12 @@
 | NoTouchID             | 1.0.4          |
 | NVMeFix               | 1.1.0          |
 | RTCMemoryFixup        | 1.0.8          |
-| VirtualSMC            | 1.2.8          |
+| VirtualSMC            | 1.2.9          |
 | VoltageShift          | Disabled, 1.22 |
-| VoodooPS2Controller   | 2.2.7          |
+| VoodooPS2Controller   | 2.2.8          |
 | VoodooRMI             | 1.3.4          |
 | VoodooSMBus           | 3.0.0          |
-| WhateverGreen         | 1.5.7          |
+| WhateverGreen         | 1.5.8          |
 | YogaSMC               | 1.5.1          |
 
 </details>
@@ -80,10 +80,10 @@
 
 |     Driver      | Version           |
 | :-------------: | ----------------- |
-|  AudioDxe.efi   | OpenCorePkg 0.7.8 |
+|  AudioDxe.efi   | OpenCorePkg 0.7.9 |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.7.8 |
-| OpenRuntime.efi | OpenCorePkg 0.7.8 |
+| OpenCanopy.efi  | OpenCorePkg 0.7.9 |
+| OpenRuntime.efi | OpenCorePkg 0.7.9 |
 
 </details>
 
