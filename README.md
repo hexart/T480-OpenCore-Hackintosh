@@ -3,7 +3,7 @@
 <img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Stable](https://img.shields.io/badge/macOS-12.2.1-purple.svg)](https://www.apple.com/macos/monterey/)
+[![macOS-Stable](https://img.shields.io/badge/macOS-12.3-purple.svg)](https://www.apple.com/macos/monterey/)
 [![Windows-Stable](https://img.shields.io/badge/Windows-11-blue.svg)](https://www.microsoft.com/en-us/windows)
 
 ## Introduction
@@ -33,11 +33,11 @@
 <summary><strong>Main software</strong></summary>
 <br>
 
-| Component      | Version        |
-| -------------- | -------------- |
-| macOS Monterey | 12.2.1 (21D62) |
-| macOS Big Sur  | 11.6 (20G165)  |
-| OpenCore       | v0.7.9         |
+| Component      | Version       |
+| -------------- | ------------- |
+| macOS Monterey | 12.3 (21E230) |
+| Windows 11     | 21H2          |
+| OpenCore       | v0.7.9        |
 
 </details>
 
